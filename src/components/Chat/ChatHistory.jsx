@@ -7,8 +7,11 @@ function  ChatHistory() {
                 <h3 className="text-lg font-bold"> Chat histories</h3>
             </div>
 
-            <div className="mt-5 text-sm text-gray-500">
-                <p>Refine the this document ...</p>
+            <div className="text-sm text-gray-600">
+                <p className="mt-3 bg-gray-100 px-2 py-2 rounded-md hover:cursor-pointer transition duration-500 hover:bg-gray-300">Refine the this document ...</p>
+                <p className="mt-3 bg-gray-100 px-2 py-2 rounded-md hover:cursor-pointer transition duration-500 hover:bg-gray-300">Refine the this document ...</p>
+                <p className="mt-3 bg-gray-100 px-2 py-2 rounded-md hover:cursor-pointer transition duration-500 hover:bg-gray-300">Refine the this document ...</p>
+            
             </div>
 
         </div>

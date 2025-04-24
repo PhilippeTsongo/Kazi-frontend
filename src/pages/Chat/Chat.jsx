@@ -3,7 +3,7 @@ import { Send } from "lucide-react"
 
 function Chat() {
     return (
-        <div className="md:flex md:justify-between gap-5 px-5 md:px-10 py-14 rounded-md bg-[#f9fafb] h-screen">
+        <div className="md:flex md:justify-between gap-5 px-5 md:px-10 py-24 md:py-14 rounded-md bg-[#f9fafb] h-screen">
 
             <ChatHistory />
 
@@ -19,18 +19,18 @@ function Chat() {
 
                 <form className="w-full bg-white rounded-lg mt-5">
                     <div className='relative flex justify-between items-center'>
-                        <div className='w-full'>
+                        <div className='w-full h-44 px-3 py-3 rounded-md text-sm text-gray-600 bg-gray-200'>
                             <textarea
                                 type="text"
                                 placeholder='Type your message below'
                                 name="message"
-                                className="w-full border border-gray-300 px-3 py-2 rounded-md text-gray-500 bg-gray-100 focus:outline-none"
+                                className="w-full h-40 focus:outline-none"
                             />
                         </div>
                         <div className='mt-2'>
                             <button 
                             type="submit" 
-                            className="absolute top-5 right-4  bg-black text-white px-4 py-2 rounded-md hover:cursor-pointer  hover:bg-gray-800">
+                            className="absolute top-28 right-4  bg-black text-white px-4 py-2 rounded-md hover:cursor-pointer  hover:bg-gray-800">
                                 <Send className='transform rotate-45' />
                             </button>
                         </div>
