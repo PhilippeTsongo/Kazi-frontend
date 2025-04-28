@@ -11,7 +11,7 @@ function Chat() {
 
                 <div className="bg-black text-center px-8 md:px-10 py-5 md:py-14 md:mt-0 mt-10 rounded-md">
                     <h1 className="text-lg md:text-xl font-bold text-white mb-4">
-                        Welcome to Kazi Chat bot
+                        Welcome to Kazi Chatbot
                     </h1>
                     <p className='text-gray-300'>Do you need any orientation or advice regarding your career?</p>
                     <p className='text-gray-300'>What are you waiting for? Ask Kazi any question </p>

@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import JobApplication from './pages/Jobs/JobApplication'
 import Login from './pages/User/Login'
 import SignUp from './pages/User/SignUp'
+import Profile from './pages/User/Profile'	
 
 import {
 	Routes,
@@ -23,7 +24,7 @@ function App() {
 				<Route path="/chat" element={<Chat />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/signup" element={<SignUp/>}/>
-
+				<Route path="/profile" element={<Profile/>}/>
 			</Routes>
 		</>
 	)

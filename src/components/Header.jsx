@@ -13,7 +13,9 @@ function Header() {
                 <ul className="flex gap-6 items-center text-xs md:text-sm">
                     <Link to="/chat" className="hover:cursor-pointer hover:text-gray-700 transition">Chat</Link>
                     <Link to="/jobs" className="hover:cursor-pointer hover:text-gray-700 transition">Jobs</Link>
+                    <Link to="/profile" className="hover:cursor-pointer hover:text-gray-700 transition">Profile</Link>
                     <Link to="/login" className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 transition hover:cursor-pointer"> Login</Link>
+
                 </ul>
             </div>
         </header>
