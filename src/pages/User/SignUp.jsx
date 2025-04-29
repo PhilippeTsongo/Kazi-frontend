@@ -5,7 +5,7 @@ function SignUp() {
         <div className="md:flex justify-between gap-5 bg-[#f9fafb]">
             
             
-            <div className="px-5 w-full md:px-10 py-5 md:py-24">
+            <div className="px-5 w-full md:px-10 py-5 md:py-14">
                 <SignUpForm />
             </div>
         </div>

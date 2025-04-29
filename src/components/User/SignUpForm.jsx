@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { SiGoogle } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { Upload } from "lucide-react";
 
