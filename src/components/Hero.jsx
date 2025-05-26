@@ -4,7 +4,7 @@ function Hero() {
     return (
         <div className="bg-black text-center px-8 md:px-10 py-10 md:py-14 md:mt-5 mt-14">
             <h1 className="text-2xl md:text-4xl font-bold text-white mb-4">
-                Find you next career with Kazi
+                Find your next career with Kazi
             </h1>
             <p className="text-md md:text-lg text-gray-400 mb-8">
                 We help you find the best jobs in the world
